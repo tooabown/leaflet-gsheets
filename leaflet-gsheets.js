@@ -8,7 +8,7 @@
 // init() is called as soon as the page loads
 function init() {
 
-  // https://docs.google.com/spreadsheets/d/1FRhoJbLdl27EMpYQvYeBO8nQ2GvTthE-UQt5BZ2kayc/edit?usp=sharing
+  // PASTE YOUR URLs HERE
   // these URLs come from Google Sheets 'shareable link' form
   // the first is the polygon layer and the second the points
   var polyURL = 'https://docs.google.com/spreadsheets/d/1EUFSaqi30b6oefK0YWWNDDOzwmCTTXlXkFHAc2QrUxM/edit?usp=sharing';
