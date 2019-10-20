@@ -12,7 +12,7 @@ function init() {
   // these URLs come from Google Sheets 'shareable link' form
   // the first is the polygon layer and the second the points
   var polyURL = 'https://docs.google.com/spreadsheets/d/1EUFSaqi30b6oefK0YWWNDDOzwmCTTXlXkFHAc2QrUxM/edit?usp=sharing';
-  var pointsURL = 'https://docs.google.com/spreadsheets/d/1kjJVPF0LyaiaDYF8z_x23UulGciGtBALQ1a1pK0coRM/edit?usp=sharing';
+  var pointsURL = 'https://docs.google.com/spreadsheets/d/1FRhoJbLdl27EMpYQvYeBO8nQ2GvTthE-UQt5BZ2kayc/edit?usp=sharing';
 
   Tabletop.init( { key: polyURL,
     callback: addPolygons,
@@ -24,7 +24,7 @@ function init() {
 window.addEventListener('DOMContentLoaded', init);
 
 // Create a new Leaflet map centered on the continental US
-var map = L.map('map').setView([40, -100], 4);
+var map = L.map('map').setView([-13.7583109, -172.1047677], 9);
 
 // This is the Carto Positron basemap
 var basemap = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}{r}.png', {
